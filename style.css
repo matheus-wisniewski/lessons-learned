@@ -28,6 +28,49 @@ body{
     width: 20%;
 }
 
+#licoes_aprendidas{
+    
+    margin-left: -20%;
+    margin-right: 25%;
+    border-style:groove;
+    border-color: black;
+    background-color: #11a36a;
+    font-style: italic;
+} 
+
+ #licoes_a_aprender{
+
+    margin-right: 10%;
+    font-style: italic;
+    border-style:groove;
+    border-color: black;
+    background-color: #11a36a;
+} 
+
+#artigo{
+    
+    text-align: center;
+    background-color:#11a36a;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+    border-style: groove;
+    border-color: black;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#sobre-mim{
+    
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    font-style: italic;
+    border-style: groove;
+    border-color: black;
+    background-color:#11a36a;
+    margin-bottom: 10%;
+}
+
 .lista-ordenada{
     
     margin-left: 17%;
@@ -54,38 +97,23 @@ body{
     font-family: montserrat, sans-serif;
 }
 
-#licoes_aprendidas{
+#footer-left{
+    float: left;
+    margin-left: 20%;
+}
+
+#footer-right{
+    float: right;
+    margin-right: 20%;
+}
+
+.button{
     
-    margin-left: -20%;
-    margin-right: 25%;
-    border-style:groove;
-    border-color: black;
-    background-color: #11a36a;
-    font-style: italic;
-} 
-
- #licoes_a_aprender{
-
-    margin-right: 10%;
-    font-style: italic;
-    border-style:groove;
-    border-color: black;
-    background-color: #11a36a;
-} 
-
-.botao-direita{
     background-color: #11a36a;
     color:whitesmoke;
+    border-style: groove;
+    border-color: black;
     border-radius: 4px;
     padding: 15px 30px 15px 30px;
     text-decoration: none;
-   
-}
-
-.botao-esquerda{
-        background-color: #11a36a;
-        color:whitesmoke;
-        border-radius: 4px;
-        padding: 15px 30px 15px 30px;
-        text-decoration: none;
 }
