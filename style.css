@@ -3,7 +3,15 @@ body{
 }
 
 #cabecalho{
+    
     top: 0;
+    border-style:ridge;
+    border-color: rgb(14, 42, 27);
+    background-color: #11a36a;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: montserrat, sans-serif;
+ 
 }
 
 /* #titulo{
