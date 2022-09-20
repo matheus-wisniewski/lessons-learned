@@ -17,3 +17,15 @@ body{
 /* #licoes_aprendidas{
 
 } */
+
+/* #licoes_a_aprender{
+
+} */
+
+.button{
+    background-color: #11a36a;
+    color:whitesmoke;
+    border-radius: 4px;
+    padding: 15px 30px 15px 30px;
+    text-decoration: none;
+}
