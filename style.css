@@ -9,14 +9,12 @@ body{
     width: 100%;
     border-style:ridge;
     border-color: rgb(14, 42, 27);
-    background-color: #11a36a;
-}
+    background-color: #11a36a;}
 
 
  #titulo{
     font-family: montserrat, sans-serif;
-    text-align: center;  
-} 
+    text-align: center;} 
 
 #minha_foto{
     
@@ -25,8 +23,7 @@ body{
     margin-top: 10%;
     margin-left: auto;
     margin-right: auto;
-    width: 20%;
-}
+    width: 20%;}
 
 #licoes_aprendidas{
     
