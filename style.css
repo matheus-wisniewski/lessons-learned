@@ -1,89 +1,102 @@
-body{
-    background-color: rgb(253, 251, 251);
+/* stylelint-disable color-no-hex */
+body {
+  background-color: rgb(253, 251, 251);
 }
 
-#cabecalho{
-    position: fixed; 
-    top: 0;
-    left: 0;
-    width: 100%;
-    border-style:ridge;
-    border-color: rgb(14, 42, 27);
-    background-color: #11a36a;}
-
- #titulo{
-    
-    font-family: montserrat, sans-serif;
-    text-align: left;
-    letter-spacing: .1em;
-    text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0,0,0,0.9);
-    color: #11a36a;
-
+#cabecalho {
+  display: flex;
+  background-color: #11a36a;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  justify-content: space-around;
+  border-color: rgb(14, 42, 27);
 }
 
-#minha_foto{
-    
-    border-radius: 80%;
-    display: block;
-    margin-top: 10%;
-    margin-left: 10%;
-    width: 25%;
+#titulo {
+  font-family: montserrat, sans-serif;
+  letter-spacing: 1em;
+  text-shadow: 0 -1px 0 white, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c,
+    0 3px 0 #2a2a2a, 0 4px 0 #282828,
+    0 5px 0 #262626, 0 6px 0 #242424,
+    0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e,
+    0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818,
+    0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0, 0, 0, 0.9);
+  color: #11a36a;
 }
 
-#sobre-mim{
-    
-        width: 50%;
-        text-align: center;
-        margin-left: auto;
-        font-style: italic;
-        border-style: groove;
-        border-color: black;
-        background-color:#11a36a;
-        margin-bottom: 10%;
-        
-}
-    
-#licoes_aprendidas{
-    
-    margin-left: -20%;
-    margin-right: 25%;
-    border-style:groove;
-    border-color: black;
-    background-color: #11a36a;
-    font-style: italic;
-} 
-
- #licoes_a_aprender{
-
-    margin-right: 10%;
-    font-style: italic;
-    border-style:groove;
-    border-color: black;
-    background-color: #11a36a;
-} 
-
-#artigo{
-    
-    text-align: center;
-    background-color:#11a36a;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: small;
-    border-style: groove;
-    border-color: black;
-    margin-top: 5%;
-    margin-bottom: 5%;
+.corpo-da-pagina {
+  display: flex;
+  flex-direction: column nowrap;
+  margin-bottom: 10%;
+  margin-top: 10%;
+  justify-content: center;
+  gap: 10px 20px;
 }
 
-.button{
-    background-color: #11a36a;
-    color:whitesmoke;
-    border-style: groove;
-    border-color: black;
-    border-radius: 50px;
-    padding: 15px 30px 15px 30px;
-    text-decoration: none;
+#foto-box {
+  justify-content: center;
 }
 
-#rodape{
-    text-align: center;
+#minha_foto {
+  border-radius: 80%;
+  width: 200px;
+}
+
+.lado-esquerdo {
+  background-color: orange;
+}
+
+#sobre-mim {
+  text-align: center;
+  font-style: italic;
+  border-style: groove;
+  border-color: black;
+  background-color: #11a36a;
+}
+
+#licoes_aprendidas {
+  border-style: groove;
+  border-color: black;
+  background-color: #11a36a;
+  font-style: italic;
+}
+
+#licoes_a_aprender {
+  font-style: italic;
+  border-style: groove;
+  border-color: black;
+  background-color: #11a36a;
+}
+
+.lado-direito {
+  justify-content: flex-end;
+  display: flex;
+}
+
+#artigo {
+  background-color: #11a36a;
+  text-align: center;
+  font-size: small;
+  font-family: Gill Sans , Gill Sans MT , Calibri, Trebuchet MS , sans-serif;
+  border-color: black;
+  border-style: groove;
+}
+
+
+#rodape {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5%;
+}
+
+.button {
+  color: whitesmoke;
+  background-color: #11a36a;
+  border-style: groove;
+  border-color: black;
+  border-radius: 50px;
+  padding: 15px 30px;
+  text-decoration: none;
 }
